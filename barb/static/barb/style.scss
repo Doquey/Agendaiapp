@@ -1,0 +1,75 @@
+$backgroundcolor:#4D30B1;
+.buttons{
+    border:1px solid rgb(63, 63, 63);
+    position:absolute;
+    text-align: center;
+    background-color:#6E301E ;
+    display:flex;
+    font-size:30px;
+    padding-top:1%;
+    padding-bottom:1%;
+    transform:scale(1.4);
+    font-family: 'Roboto', sans-serif;
+    font-weight:280px;
+    color:rgb(255, 255, 255);
+    font-size:150%;
+    opacity:0.9;
+    border-radius: 8%;
+    box-shadow: 0 3px 4px   rgb(0, 0, 0,0.2)
+}
+.buttons:hover{
+    background-color:#57271a;
+    cursor: pointer;
+    transform:scale(1.2);
+
+
+}
+#agenda{
+    @extend .buttons;
+    top:68%;
+    left:52%;
+    background-size:20px;
+    background-repeat: no-repeat;   
+}
+#contato{
+    @extend .buttons;
+    top:68%;
+    left:38%;
+
+}
+#info{
+    @extend .buttons;
+    top:81%;
+    left:42.5%;
+    width:180px;
+    padding-left:2.5%;
+}
+body{
+    background-size: contain;
+  background-size: 45%;
+  background-repeat: no-repeat;
+  background-position: 50% -60%;
+  background-color:$backgroundcolor;
+  top:45%;
+  background-image: url('barbearia.png');
+}
+#header{
+    position:relative;
+    width:110%;
+    height:70px;
+    margin-top:-1%;
+    margin-left:-1%;
+    box-shadow:0 5px 3px rgb(0,0,0,0.19);
+    background: url('agenda2.png') left 4.8% top 30% no-repeat, url('carrinho.png') left 85% top 43% no-repeat, url('ras.png') left 90% top 43% no-repeat;
+    background-size:3%,3%,2.4%;
+    background-color:#1E6E30;
+
+    p{
+        position:absolute;
+        padding-top:2.5%;
+        font-family: 'Roboto', sans-serif;
+        font-size:small;
+        color:white;
+        padding-left:4%;
+        font-weight:bold;
+    }}

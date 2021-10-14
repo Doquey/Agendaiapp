@@ -1,0 +1,76 @@
+.buttons, #info, #contato, #agenda {
+  border: 1px solid #3f3f3f;
+  position: absolute;
+  text-align: center;
+  background-color: #6E301E;
+  display: flex;
+  font-size: 30px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  transform: scale(1.4);
+  font-family: "Roboto", sans-serif;
+  font-weight: 280px;
+  color: white;
+  font-size: 150%;
+  opacity: 0.9;
+  border-radius: 8%;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
+}
+
+.buttons:hover, #info:hover, #contato:hover, #agenda:hover {
+  background-color: #57271a;
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+#agenda {
+  top: 68%;
+  left: 52%;
+  background-size: 20px;
+  background-repeat: no-repeat;
+}
+
+#contato {
+  top: 68%;
+  left: 38%;
+}
+
+#info {
+  top: 81%;
+  left: 42.5%;
+  width: 180px;
+  padding-left: 2.5%;
+}
+
+body {
+  background-size: contain;
+  background-size: 45%;
+  background-repeat: no-repeat;
+  background-position: 50% -60%;
+  background-color: #4D30B1;
+  top: 45%;
+  background-image: url("barbearia.png");
+}
+
+#header {
+  position: relative;
+  width: 110%;
+  height: 70px;
+  margin-top: -1%;
+  margin-left: -1%;
+  box-shadow: 0 5px 3px rgba(0, 0, 0, 0.19);
+  background: url("agenda2.png") left 4.8% top 30% no-repeat, url("carrinho.png") left 85% top 43% no-repeat, url("ras.png") left 90% top 43% no-repeat;
+  background-size: 3%, 3%, 2.4%;
+  background-color: #1E6E30;
+}
+#header p {
+  position: absolute;
+  padding-top: 2.5%;
+  font-family: "Roboto", sans-serif;
+  font-size: small;
+  color: white;
+  padding-left: 4%;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */
